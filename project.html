@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Site M Dandi Al Idrus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- UNTUK NAVBAR -->
+    <header>
+        <div class="logo">
+            <img src="foto/avtr.jpeg" alt="logo" class="logo-img">
+            <h1 class="logo-title">M Dandi Al Idrus</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">MATERI</a>
+                    <div class="dropdown-content ">
+                        <a href="teori.html">Teori</a>
+                        <a href="praktek.html">Praktek</a>
+                    </div>
+                </li>
+                <li><a href="tugas.html">TUGAS</a></li>
+                <li><a href="sosial.html">SOSIAL</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- MATERI -->
+    <div class="resistor">
+        <li class="kembaliresistor"><a href="teori.html">Kembali</a></li>
+             <div class="teori1" id="kontak">
+                    <button class="btn2"><a href="resistor.html">Resistor</a></button>
+                    <button class="btn2"><a href="materi_kapasitor.html">Kapasitor</a></button>
+                    <button class="btn2"><a href="materi_induktor.html">Induktor</a></button>
+                    <button class="btn2"><a href="materi_dioda.html">Dioda</a></button>
+                    <button class="btn2"><a href="materi_transistor.html">Transistor</a></button>
+                    <button class="btn2"><a href="project.html">Project</a></button>
+            </div>
+
+        <!-- Project -->
+        <section id="induktor">
+            <h2 class="tulisanresistor">Rangkaian Dimmer</h2>
+            <p class="pengertian">Pengertian Rangkaian Dimmer</p>
+            <div class="isip">
+                <p>Dimmer adalah pengatur nyala lampu sederhana dimana pengguna / user bisa mengatur intensitas cahaya yang dikeluarkan oleh sebuah lampu.</p>
+                <img src="foto/project/layout.jpg" width="50%" alt="">
+            </div>
+
+            <p class="pengertian">Alat Dan Bahan</p>
+            <div class="isip">
+                <p>1. PCB<br>
+                <p>2. 4X Dioda 1N4004<br>
+                <p>3. 2X Resistor 4K7<br>
+                <p>4. 2X Resistor 33K<br>
+                <p>5. Dioda 1N54003<br>
+                <p>6. BTA416008 TRIAC<br>
+                <p>7. Fuse 20A<br>    
+                <p>8. Potensio 50K Ohm<br>
+                <p>9. Kapasitor ( 100nF/630V)<br>
+                <p>10. Kapasitor (150nF/275v)<br>
+                <p>11. Terminal 5205-05-N-2 5 pin<br>
+                <img src="" alt="">
+            </div>
+    
+            <p class="pengertian">Video Tes Project</p>
+   
+            <div class="isip" id="video">
+                <video controls="true" width="450px" muted="true">
+                    <source src="video/PROJECT PCB.mp4" type="video/webm">
+                </video>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="title">&copy; M Dandi Al Idrus 2023</p>
+        </footer>
+
+    <!--JAVASCRIPT  -->
+   <script>
+        function redirInstagram(){
+            window.location.href = "https://instagram.com/qwerty_____._._"
+        }
+
+        function redirWhatsapp(){
+            window.location.href = "https://wa.me//+6287829478221"
+        }
+        function redirtGd(){
+            window.location.href ="https://drive.google.com/drive/folders/1e7pGErqYK1aLfVhlAzqnciKY2qCfMQtl?hl=ID"
+        }
+        function redirresistor(){
+            window.location.href = "https://www.belajaronline.net/2020/07/pengertian-resistor-simbol-dan-jenis-jenis-resistor.html?m=1"
+        }
+        function redirkapasitor(){
+            window.location.href = "https://www.sdf-aviation.com/Kapasitor"
+        }
+        function redirinduktor(){
+            window.location.href = "https://www.gesainstech.com/2022/03/induktor-pengertian-jenis-jenis-kegunaan-rangkaian-seri-paralel-cara-mengukur-rumus.html"
+        }
+        function redirdioda(){
+            window.location.href = "https://www.etsworlds.id/2020/01/dioda-pengertian-prinsip-kerja-fungsi.html"
+        }
+     
+   </script>
+   
+</body>
+</html>

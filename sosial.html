@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Site M Dandi Al Idrus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- UNTUK NAVBAR -->
+    <header>
+        <div class="logo">
+            <img src="foto/avtr.jpeg" alt="logo" class="logo-img">
+            <h1 class="logo-title">M Dandi Al Idrus</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">MATERI</a>
+                    <div class="dropdown-content ">
+                        <a href="teori.html">Teori</a>
+                        <a href="praktek.html">Praktek</a>
+                    </div>
+                </li>
+                <li><a href="tugas.html">TUGAS</a></li>
+                <li><a href="sosial.html">SOSIAL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- SOSIAL -->
+    <div class="sosial">
+        <p class="tulisansosial">SOSIAL</p>
+            <div class="classosial" id="kontak">
+                <div class="fotososial">
+                    <img src="foto/ig.png" alt="icon-1" class="icon">
+                    <p class="tulisan-2">Klik dibawah ini untuk mengikuti instagram saya</p>
+                    <button class="btn1" onclick="redirInstagram()">Follow</button>
+                </div>
+                <div class="fotososial">
+                    <img src="foto/wa.png" alt="icon-2" class="icon">
+                    <p class="tulisan-2">Klik dibawah ini untuk menuju Whatsapp saya</p>
+                    <button class="btn1" onclick="redirWhatsapp()">Whatsapp</button>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <p class="title">&copy; M Dandi Al Idrus 2023</p>
+        </footer>
+
+
+    <!--JAVASCRIPT  -->
+   <script>
+        function redirInstagram(){
+            window.location.href = "https://instagram.com/dndi_._._"
+        }
+
+        function redirWhatsapp(){
+            window.location.href = "https://wa.me//+6287829478221"
+        }
+        function redirtGd(){
+            window.location.href ="https://drive.google.com/drive/folders/1e7pGErqYK1aLfVhlAzqnciKY2qCfMQtl?hl=ID"
+        }
+   </script>
+   
+</body>
+</html>
